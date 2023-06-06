@@ -1,0 +1,110 @@
+body{
+    color: black;
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+ul {
+   display: flex;
+   justify-content:space-around;
+   list-style-type: none;
+   align-items: left;
+   padding: 10px;
+
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    border: 5pix solid green
+}
+
+.class{
+    text-align:center
+}
+
+.conteiner{
+    padding-left: 20px;
+    
+}
+
+nav a:hover { 
+    color: green;
+}
+
+
+.samba{
+    width: 60%;
+}
+
+.copacabana{
+    width: 60%;
+}
+
+.video{
+    float: right;
+    width: 50%;
+   margin-top: 300px;
+    
+}
+
+.leftSide{
+    float: left;
+    width: 50%;
+}
+
+
+.contactPage {
+    position: absolute;
+    margin-left: 10px;
+    
+}
+
+
+.socialMedia{
+
+    top: 40px;
+    bottom: 50px;
+    position: relative;
+    
+}
+
+.socialMediaImg{
+    
+    display: block;
+    max-height: 7%;
+    max-width: 7%;
+    margin-top: 5px;
+    width: fit-content;
+
+   
+}
+
+
+.contactPageHeaders{
+    height: 50%;
+    font-size: 1em;
+    width: 50%;
+}
+
+.contactInfo{
+    margin-bottom: 30px;
+
+}
+
+.a{
+    display: block;
+}
+
+.homePageLink{
+    font-size: 1em;
+    position: absolute;
+    margin-bottom: 10px;
+}
